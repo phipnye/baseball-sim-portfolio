@@ -1,0 +1,10 @@
+# Ignore compiled binaries
+*.o
+*.out
+*.exe
+*.so
+*.dll
+
+# Ignore any executables with no extension
+src/cpp/*
+!src/cpp/*.cpp
